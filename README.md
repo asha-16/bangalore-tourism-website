@@ -4,13 +4,19 @@ A clean, modern tourist guide web app to help visitors discover **Bangalore (Ben
 
 ---
 
+## 🔗 Live Demo
+
+👉 **Deployed URL:** https://bangalore-tourism-guide.netlify.app
+
+---
+
+
 ## ✨ Features
 
+- 🧭 How to reach Bangalore (air, rail, road)  
 - 🏙 Curated attractions & local experiences  
 - 🍽 Must-try Bangalore food recommendations  
 - 🚕 Travel tips & emergency information  
-- 🧭 How to reach Bangalore (air, rail, road)  
-- 🌐 Multi-language support (English, Kannada, Hindi)  
 - 📱 Fully responsive, mobile-first design  
 
 ---
@@ -32,5 +38,6 @@ cd bangalore-tourism
 npm install
 npm run dev
 
+---
 
 ## 🚀 ⭐ If you like this project, give it a star!
