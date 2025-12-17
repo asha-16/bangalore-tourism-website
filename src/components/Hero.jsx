@@ -30,22 +30,22 @@ export default function Hero() {
 
      <div className="hero-image-strip">
       <div className="image-track">
-        <img src="\public\hero-image-1.jpg" />
-        <img src="\public\hero-image-2.jpg" />
-        <img src="\public\hero-image-3.jpg" />
-        <img src="\public\hero-image-4.jpg" />
-        <img src="\public\hero-image-5.jpg" />
-        <img src="\public\hero-image-6.jpg" />
-        <img src="\public\hero-image-7.jpg" />
+        <img src="\hero-image-1.jpg" />
+        <img src="\hero-image-2.jpg" />
+        <img src="\hero-image-3.jpg" />
+        <img src="\hero-image-4.jpg" />
+        <img src="\hero-image-5.jpg" />
+        <img src="\hero-image-6.jpg" />
+        <img src="\hero-image-7.jpg" />
         
         {/* Duplicate for seamless loop */}
-        <img src="\public\hero-image-1.jpg" />
-        <img src="\public\hero-image-2.jpg" />
-        <img src="\public\hero-image-3.jpg" />
-        <img src="\public\hero-image-4.jpg" />
-        <img src="\public\hero-image-5.jpg" />
-        <img src="\public\hero-image-6.jpg" />
-        <img src="\public\hero-image-7.jpg" />
+        <img src="\hero-image-1.jpg" />
+        <img src="\hero-image-2.jpg" />
+        <img src="\hero-image-3.jpg" />
+        <img src="\hero-image-4.jpg" />
+        <img src="\hero-image-5.jpg" />
+        <img src="\hero-image-6.jpg" />
+        <img src="\hero-image-7.jpg" />
       </div>
     </div>
 
