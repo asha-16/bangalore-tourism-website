@@ -17,6 +17,8 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Quick Links</h4>
           <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#how-to-reach">How to Reach</a></li>
             <li><a href="#attractions">Attractions</a></li>
             <li><a href="#food">Food & Cuisine</a></li>
             <li><a href="#travel-tips">Travel Tips</a></li>
