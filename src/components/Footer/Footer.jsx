@@ -29,7 +29,7 @@ export default function Footer() {
         <h4>Connect</h4>
         <div className="footer-socials">
           <a href="https://github.com/asha-16" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/ashahp16/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/ashahp11/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="mailto:ashahp.work@gmail.com">Email</a>
         </div>
       </div>
