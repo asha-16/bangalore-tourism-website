@@ -1,4 +1,5 @@
 import howToReach from "../../data/howToReach.js";
+import "./HowToReach.css";
 
 export default function HowToReach() {
   return (
@@ -10,43 +11,44 @@ export default function HowToReach() {
 
       <div className="arrival-flow">
         {howToReach.map((step, index) => (
-          <div className="arrival-step">
+          <div className="arrival-step" key={index}>
+            {/* Step Number */}
             <span className="step-number">{index + 1}</span>
 
+            {/* Step Content */}
             <div className="step-content">
-
-                <div className="step-title-row">
+              <div className="step-title-row">
                 <h3>
-                    <span className="step-icon">{step.icon}</span>
-                    {step.mode}
+                  <span className="step-icon">{step.icon}</span>
+                  {step.mode}
                 </h3>
-
                 <span className={`confidence-badge ${step.confidence}`}>
-                    {step.confidence === "high" ? "Highly Reliable" : "Reliable"}
+                  {step.confidence === "high" ? "Highly Reliable" : "Reliable"}
                 </span>
-                </div>
+              </div>
 
-                <p className="step-desc">{step.description}</p>
+              <p className="step-desc">{step.description}</p>
 
+              {step.details?.length > 0 && (
                 <ul className="step-points">
-                {step.details.map((point, idx) => (
-                    <li key={idx}>• {point}</li>
-                ))}
+                  {step.details.map((point, idx) => (
+                    <li key={idx}>{point}</li>
+                  ))}
                 </ul>
+              )}
 
+              {step.recommended && (
                 <div className="recommended-box">
-                <strong>Recommended:</strong>
-                <p>{step.recommended}</p>
+                  <strong>Recommended:</strong>
+                  <p>{step.recommended}</p>
                 </div>
+              )}
 
-                <p className="step-source">Source: {step.source}</p>
-                
+              {step.source && <p className="step-source">Source: {step.source}</p>}
             </div>
-
-        </div>
-
+          </div>
         ))}
-    </div>
+      </div>
     </section>
   );
 }

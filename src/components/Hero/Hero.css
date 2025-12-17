@@ -1,32 +1,31 @@
-
-/* ================================== HERO CONTENT  ==================================*/
+/* ================================== HERO ================================== */
 .hero-clean {
   width: 100%;
   background: #0f0f0f;
-  padding: 140px 8% 80px 8%;
+  padding: 120px 8% 60px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 40px;
 }
 
-/* TEXT SECTION */
+/* Text Section */
 .hero-text-area {
   max-width: 620px;
 }
 
 .hero-title {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   text-shadow: 0 0 6px rgba(255,255,255,0.35);
 }
 
 .hero-description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #cfcfcf;
-  line-height: 1.6;
-  margin-bottom: 32px;
+  line-height: 1.5;
+  margin-bottom: 25px;
 }
 
 .hero-btn {
@@ -38,6 +37,7 @@
   cursor: pointer;
   font-size: 1rem;
   transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin-bottom: 35px;
 }
 
 .hero-btn:hover {
@@ -45,7 +45,7 @@
   box-shadow: 0 12px 30px rgba(255,215,0,0.45);
 }
 
-/* IMAGE STRIP — FULL WIDTH */
+/* Image Strip */
 .hero-image-strip {
   width: 100%;
   overflow: hidden;
@@ -53,7 +53,7 @@
 
 .image-track {
   display: flex;
-  gap: 4px;
+  gap: 8px;
   width: max-content;
   animation: scrollImages 40s linear infinite;
 }
@@ -66,15 +66,34 @@
   width: 320px;
   height: 280px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 
+/* Scroll Animation */
 @keyframes scrollImages {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* =================== RESPONSIVE =================== */
+@media (max-width: 1024px) {
+  .hero-title { font-size: 2.4rem; }
+  .hero-description { font-size: 0.95rem; }
+  .image-track img { width: 260px; height: 220px; }
+}
+
+@media (max-width: 768px) {
+  .hero-clean { padding: 100px 6% 40px; gap: 30px; }
+  .hero-title { font-size: 2rem; }
+  .hero-description { font-size: 0.9rem; }
+  .image-track img { width: 220px; height: 180px; }
+}
+
+@media (max-width: 480px) {
+  .hero-clean { padding: 80px 4% 30px; gap: 20px; }
+  .hero-title { font-size: 1.6rem; text-align: center; }
+  .hero-description { font-size: 0.85rem; text-align: center; }
+  .hero-btn { width: 100%; text-align: center; }
+  .image-track img { width: 180px; height: 140px; }
 }

@@ -3,20 +3,20 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-container">
 
-        {/* LEFT: ABOUT */}
+        {/* ABOUT */}
         <div className="footer-col">
-          <h4>About "Explore Bangalore"</h4>
+          <h4>About Explore Bangalore</h4>
           <p>
             A curated travel guide to Bangalore covering food, culture,
             transportation, and local tips — designed to help visitors
-            experience the city with confidence.
+            explore the city with confidence.
           </p>
         </div>
 
-        {/* CENTER: QUICK LINKS */}
+        {/* QUICK LINKS */}
         <div className="footer-col">
           <h4>Quick Links</h4>
-          <ul>
+          <ul className="footer-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#how-to-reach">How to Reach</a></li>
             <li><a href="#attractions">Attractions</a></li>
@@ -25,25 +25,33 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* RIGHT: SOURCES */}
-        {/* <div className="footer-col">
-          <h4>Sources & References</h4>
-          <ul>
-            <li>BMRCL (Namma Metro)</li>
-            <li>Govt. of Karnataka Tourism</li>
-            <li>Local culinary guides & reviews</li>
-          </ul>
-        </div> */}
+        <div className="footer-col">
+        <h4>Connect</h4>
+        <div className="footer-socials">
+          <a href="https://github.com/asha-16" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/ashahp16/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:ashahp.work@gmail.com">Email</a>
+        </div>
+      </div>
+
 
       </div>
 
-      {/* BOTTOM BAR */}
+      {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
         <p>
-          © {new Date().getFullYear()} Bangalore Travel Guide.  
-          Information curated for travelers. Verify timings & prices locally.
+          © {new Date().getFullYear()} Explore Bangalore ·  
+          Information curated for travelers. Verify details locally.
         </p>
       </div>
+
+      <button
+        className="back-to-top"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        ↑ Back to top
+      </button>
+
     </footer>
   );
 }
