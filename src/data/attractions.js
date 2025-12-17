@@ -3,7 +3,7 @@ const attractions = [
     id: 1,
     name: "Lalbagh Botanical Garden",
     category: "Nature",
-    image: "/images/lalbagh.jpg",
+    image: "/images/attractions/lalbagh.jpg",
     description:
       "One of India’s most renowned botanical gardens, home to rare plant species and a historic glasshouse inspired by London’s Crystal Palace.",
     location: "South Bangalore",
@@ -16,7 +16,7 @@ const attractions = [
     id: 2,
     name: "Bangalore Palace",
     category: "Heritage",
-    image: "/images/bangalore-palace.jpg",
+    image: "/images/attractions/bangalore-palace.jpg",
     description:
       "A majestic royal palace inspired by England’s Windsor Castle, offering insights into the city’s royal heritage and architecture.",
     location: "Vasanth Nagar",
@@ -29,7 +29,7 @@ const attractions = [
     id: 3,
     name: "Vidhana Soudha",
     category: "Heritage",
-    image: "/images/vidhana-soudha.jpg",
+    image: "/images/attractions/vidhana-soudha.jpg",
     description:
       "An iconic seat of the Karnataka state legislature, celebrated for its imposing neo-Dravidian architecture and grandeur.",
     location: "Central Bangalore",
@@ -42,7 +42,7 @@ const attractions = [
     id: 4,
     name: "Cubbon Park",
     category: "Nature",
-    image: "/images/cubbon-park.jpg",
+    image: "/images/attractions/cubbon-park.jpg",
     description:
       "A sprawling green oasis in the heart of the city, ideal for leisurely walks, relaxation, and escaping urban bustle.",
     location: "Central Bangalore",
@@ -55,7 +55,7 @@ const attractions = [
     id: 5,
     name: "ISKCON Temple",
     category: "Spiritual",
-    image: "/images/iskon-temple.jpg",
+    image: "/images/attractions/iskon-temple.jpg",
     description:
       "A prominent spiritual center dedicated to Lord Krishna, known for its serene ambiance, devotional music, and cultural programs.",
     location: "Rajajinagar",
@@ -68,7 +68,7 @@ const attractions = [
     id: 6,
     name: "MG Road",
     category: "City",
-    image: "/images/mg-road.jpg",
+    image: "/images/attractions/mg-road.jpg",
     description:
       "One of Bangalore’s busiest arterial roads, offering a vibrant mix of shopping, dining, cafés, and nightlife.",
     location: "Central Bangalore",
@@ -81,7 +81,7 @@ const attractions = [
     id: 7,
     name: "Commercial Street",
     category: "Shopping",
-    image: "/images/commercial-street.jpg",
+    image: "/images/attractions/commercial-street.jpg",
     description:
       "A bustling shopping destination popular for affordable clothing, accessories, and lively street markets.",
     location: "Central Bangalore",
@@ -94,7 +94,7 @@ const attractions = [
     id: 8,
     name: "VV Puram Food Street",
     category: "Food",
-    image: "/images/vv-puram.jpg",
+    image: "/images/attractions/vv-puram.jpg",
     description:
       "Bangalore’s iconic vegetarian food street, renowned for traditional South Indian snacks and local street delicacies.",
     location: "Basavanagudi",
@@ -107,7 +107,7 @@ const attractions = [
     id: 9,
     name: "National Gallery of Modern Art",
     category: "Art & Culture",
-    image: "/images/ngma.jpg",
+    image: "/images/attractions/ngma.jpg",
     description:
       "A tranquil art museum featuring modern and contemporary Indian artworks housed in a heritage building.",
     location: "Palace Road",
@@ -120,7 +120,7 @@ const attractions = [
     id: 10,
     name: "Nandi Hills",
     category: "Weekend Getaway",
-    image: "/images/nandi-hills.jpg",
+    image: "/images/attractions/nandi-hills.jpg",
     description:
       "A popular hilltop retreat near Bangalore, famous for panoramic sunrise views, cool climate, and scenic landscapes.",
     location: "Near Bangalore",

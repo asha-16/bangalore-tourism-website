@@ -3,7 +3,7 @@ const foodItems = [
     id: 1,
     name: "Masala Dosa",
     category: "Tiffin / Breakfast",
-    image: "/images/masala-dosa.jpg",
+    image: "/images/food/masala-dosa.jpg",
     shortDesc: "Iconic Bangalore-style crispy dosa",
     description:
       "A thick, golden-brown crispy dosa made with fermented rice batter, generously coated with butter and served with potato palya, coconut chutney, and sambar. Bangalore’s dosa style is distinct for its crispness and richness.",
@@ -20,7 +20,7 @@ const foodItems = [
     id: 2,
     name: "South Indian Meals",
     category: "Lunch",
-    image: "/images/south-indian-meals.jpg",
+    image: "/images/food/south-indian-meals.jpg",
     shortDesc: "Traditional vegetarian thali served on banana leaf",
     description:
       "A wholesome Karnataka-style meal featuring rice, sambar, rasam, palya, kosambari, curd, pickle, and a sweet — traditionally served on a banana leaf and eaten with hands.",
@@ -37,7 +37,7 @@ const foodItems = [
     id: 3,
     name: "VV Puram Food Street",
     category: "Evening / Late Night Snacks",
-    image: "/images/vv-puram-food.jpg",
+    image: "/images/food/vv-puram-food.jpg",
     shortDesc: "Bangalore’s most famous street food destination",
     description:
       "An iconic food street offering a wide variety of vegetarian street snacks such as dosa varieties, paddu, chaats, sweets, and regional specialties. A must-visit cultural food experience.",
@@ -54,7 +54,7 @@ const foodItems = [
     id: 4,
     name: "Bangalore Savories",
     category: "Snacks",
-    image: "/images/bangalore-snacks.jpg",
+    image: "/images/food/bangalore-snacks.jpg",
     shortDesc: "Local tea-time snacks and bakery savories",
     description:
       "Popular savory snacks such as khara bun, vegetable puffs, congress kadlekai, nippattu, and mixture — commonly enjoyed with evening tea across Bangalore.",
@@ -71,7 +71,7 @@ const foodItems = [
     id: 5,
     name: "Mysore Pak",
     category: "Dessert / Sweets",
-    image: "/images/mysore-pak.jpg",
+    image: "/images/food/mysore-pak.jpg",
     shortDesc: "Rich ghee-based Karnataka sweet",
     description:
       "A legendary Karnataka sweet made from gram flour, sugar, and generous amounts of ghee. Known for its melt-in-the-mouth texture and rich flavor.",
@@ -88,7 +88,7 @@ const foodItems = [
     id: 6,
     name: "Bangalore-Style Biryani",
     category: "Non-Vegetarian Special",
-    image: "/images/meghanas-biryani.jpg",
+    image: "/images/food/meghanas-biryani.jpg",
     shortDesc: "Spicy Andhra-style biryani loved by locals",
     description:
       "A flavorful, spicy biryani made with fragrant rice, tender chicken, and bold Andhra spices. Bangalore’s modern food identity is closely tied to Meghana Foods.",
