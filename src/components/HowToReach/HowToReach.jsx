@@ -1,4 +1,4 @@
-import howToReach from "../data/howToReach";
+import howToReach from "../../data/howToReach.js";
 
 export default function HowToReach() {
   return (

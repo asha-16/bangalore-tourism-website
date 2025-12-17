@@ -1,5 +1,5 @@
 import { useState } from "react";
-import foodItems from "../data/food";
+import foodItems from "../../data/food.js";
 
 export default function FoodSection() {
   const [activeFood, setActiveFood] = useState(foodItems[0]);

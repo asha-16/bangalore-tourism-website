@@ -1,5 +1,5 @@
 import { useState } from "react";
-import travelTips from "../data/travelTips";
+import travelTips from "../../data/travelTips.js";
 import { FaBus, FaAmbulance, FaHotel, FaCloudSunRain } from "react-icons/fa";
 
 const iconMap = {

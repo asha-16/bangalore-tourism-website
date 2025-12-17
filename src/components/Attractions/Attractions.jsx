@@ -1,5 +1,5 @@
 import { useState } from "react";
-import attractions from "../data/attractions";
+import attractions from "../../data/attractions.js";
 
 export default function Attractions() {
   const [selectedAttraction, setSelectedAttraction] = useState(null);
